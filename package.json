@@ -1,6 +1,6 @@
 {
-  "name": "react-simple-di-v2",
-  "version": "2.0.0",
+  "name": "react-simple-di-native",
+  "version": "1.0.0",
   "description": "Simple Dependancy Injection Solution for React",
   "repository": {
     "type": "git",
@@ -53,5 +53,6 @@
   "main": "index.js",
   "keywords": [
     "react-simple-di"
-  ]
+  ],
+  "author": ""
 }
