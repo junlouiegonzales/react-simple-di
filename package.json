@@ -1,17 +1,17 @@
 {
-  "name": "react-simple-di",
-  "version": "1.2.0",
+  "name": "react-simple-di-v2",
+  "version": "2.0.0",
   "description": "Simple Dependancy Injection Solution for React",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kadirahq/react-simple-di"
+    "url": "git+https://github.com/kadirahq/react-simple-di.git"
   },
   "license": "MIT",
   "options": {
     "mocha": "--require scripts/mocha_runner lib/**/__tests__/**/*.js"
   },
   "scripts": {
-    "prepublish": "cd scripts && prepublish.sh",
+    "prepublish": "babel --plugins transform-runtime ./lib/index.js --ignore _tests_ --out-dir ./dist",
     "lint": "eslint ./lib",
     "lintfix": "eslint ./lib --fix",
     "testonly": "mocha $npm_package_options_mocha",
@@ -21,7 +21,7 @@
     "babel-cli": "6.x.x",
     "babel-core": "6.x.x",
     "babel-eslint": "4.x.x",
-    "babel-plugin-transform-runtime": "6.x.x",
+    "babel-plugin-transform-runtime": "^6.23.0",
     "babel-polyfill": "6.x.x",
     "babel-preset-es2015": "6.x.x",
     "babel-preset-react": "6.x.x",
@@ -43,7 +43,15 @@
     "prop-types": "16.x.x"
   },
   "dependencies": {
-    "babel-runtime": "6.x.x",
+    "babel-runtime": "^6.26.0",
     "hoist-non-react-statics": "^2.5.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/kadirahq/react-simple-di/issues"
+  },
+  "homepage": "https://github.com/kadirahq/react-simple-di#readme",
+  "main": "index.js",
+  "keywords": [
+    "react-simple-di"
+  ]
 }
