@@ -1,6 +1,6 @@
 {
   "name": "biz-react-simple-di",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Simple Dependancy Injection Solution for React",
   "repository": {
     "type": "git",
@@ -11,7 +11,7 @@
     "mocha": "--require scripts/mocha_runner lib/**/__tests__/**/*.js"
   },
   "scripts": {
-    "prepublish": "babel --plugins transform-runtime ./lib/index.js --ignore _tests_ --out-dir ./dist",
+    "prepublish": "babel --plugins transform-runtime lib --ignore _tests_ --out-dir ./dist",
     "lint": "eslint ./lib",
     "lintfix": "eslint ./lib --fix",
     "testonly": "mocha $npm_package_options_mocha",
