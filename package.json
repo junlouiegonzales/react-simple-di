@@ -1,6 +1,6 @@
 {
   "name": "biz-react-simple-di",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Simple Dependancy Injection Solution for React",
   "repository": {
     "type": "git",
