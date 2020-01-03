@@ -1,10 +1,10 @@
 {
   "name": "biz-react-simple-di",
   "version": "1.0.4",
-  "description": "Simple Dependancy Injection Solution for React",
+  "description": "Simple Dependancy Injection Solution for React (React 16)",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kadirahq/react-simple-di.git"
+    "url": "git+https://github.com/junlouiegonzales/react-simple-di.git"
   },
   "license": "MIT",
   "options": {
