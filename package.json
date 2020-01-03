@@ -27,7 +27,8 @@
     "babel-preset-react": "6.x.x",
     "babel-preset-stage-2": "6.x.x",
     "chai": "3.x.x",
-    "enzyme": "^2.2.0",
+    "enzyme": "^2.9.1",
+    "enzyme-adapter-react-16": "^1.15.2",
     "eslint": "1.7.x",
     "eslint-plugin-babel": "2.x.x",
     "eslint-plugin-react": "3.x.x",
@@ -35,7 +36,6 @@
     "nodemon": "1.7.x",
     "prop-types": "^15.6.1",
     "react": "^16.2.0",
-    "react-addons-test-utils": "^15.0.0",
     "react-dom": "^16.2.0"
   },
   "peerDependencies": {
@@ -52,7 +52,7 @@
   "homepage": "https://github.com/kadirahq/react-simple-di#readme",
   "main": "index.js",
   "keywords": [
-    "react-simple-di"
+    "biz-react-simple-di"
   ],
   "author": ""
 }
